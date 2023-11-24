@@ -12,7 +12,7 @@ const altura = document.getElementById('altura');
 const posicao = document.getElementById('posicao');
 const botaoVoltar = document.getElementById('botaoVoltar');
 
-botaoVoltar.onclick = () => window.location = '/atletas.html';
+botaoVoltar.onclick = () => window.location = "https://DataScienceDaniel.github.io/p2DevWeb/atletas.html";
 
 const pegar_coisas = async (caminho) => {
     const resposta = await fetch(caminho);
