@@ -37,7 +37,7 @@ botaoSaida.id = "botaoSaida"
 botaoSaida.innerText = 'Sair';
 botaoSaida.onclick = () => {
     sessionStorage.removeItem('log');
-    window.location = "https://DataScienceDaniel.github.io/p2DevWeb";
+    window.location = "/p2DevWeb";
 };
 
 containerCabecalho.appendChild(textoCabecalho);
@@ -115,7 +115,7 @@ const CliqueBotoes = (caminho) => {
 };
 
 const CliqueContainer = (atleta) => {
-    window.location = `/outra.html?id=${atleta.id}`;
+    window.location = `https://DataScienceDaniel.github.io/p2DevWeb/outra.html?id=${atleta.id}`;
 };
 
 const buscarDados = async (caminho) => {
