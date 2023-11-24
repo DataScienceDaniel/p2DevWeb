@@ -6,7 +6,7 @@ function submitForm() {
 
     if (inputMD5 == senhamd5) {
         sessionStorage.setItem('log', 'logado');
-        window.location = "/atletas.html";
+        window.location = "https://DataScienceDaniel.github.io/p2DevWeb/atletas.html";
     } else {
         alert("Senha incorreta");
     }
