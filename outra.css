@@ -1,0 +1,42 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#foto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#nome {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#botaoVoltar {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
