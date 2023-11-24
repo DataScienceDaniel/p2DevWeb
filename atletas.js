@@ -37,7 +37,7 @@ botaoSaida.id = "botaoSaida"
 botaoSaida.innerText = 'Sair';
 botaoSaida.onclick = () => {
     sessionStorage.removeItem('log');
-    window.location = '/';
+    window.location = "https://DataScienceDaniel.github.io/p2DevWeb";
 };
 
 containerCabecalho.appendChild(textoCabecalho);
