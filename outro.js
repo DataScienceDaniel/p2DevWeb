@@ -1,7 +1,7 @@
 
 if (!sessionStorage.getItem('log')){
     alert("Acesso não autorizado")
-    window.location = '/';
+    window.location = "https://DataScienceDaniel.github.io/p2DevWeb";
 }
 
 const foto = document.getElementById('foto');
