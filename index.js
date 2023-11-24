@@ -6,7 +6,7 @@ function submitForm() {
 
     if (inputMD5 == senhamd5) {
         sessionStorage.setItem('log', 'logado');
-        document.location = "/atletas.html";
+        window.location = "/atletas.html";
     } else {
         alert("Senha incorreta");
     }
